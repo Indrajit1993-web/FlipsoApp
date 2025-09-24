@@ -40,6 +40,6 @@ steps:
 
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: 'Indrajit1993-web'
+    azureSubscription: 'AzureRM-Indrajit1993'
     appName: 'flipso-web-app'
     package: '$(Build.ArtifactStagingDirectory)/**/*.zip'
